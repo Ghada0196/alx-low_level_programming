@@ -8,7 +8,7 @@
 int main(void)
 {
 	char s[62] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	
+
 	write(STDERR_FILENO, s, 59);
 	return (1);
 }

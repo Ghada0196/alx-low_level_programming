@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-* main function
-* that always prints 0
-* but prints the below sentence in the process
+* main - Entry point
+* prints the below sentence in the process
+* Return: Always 0 (Success)
 */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	return (0);
 }

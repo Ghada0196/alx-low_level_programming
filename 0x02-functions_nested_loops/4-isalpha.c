@@ -4,7 +4,7 @@
  * _isalpha - check description
  * @c: an input character
  * description: checks for alphabetic character
- * return: 1 if true or 0 if false
+ * Return: 1 if true or 0 if false
  */
 
 int _isalpha(int c)

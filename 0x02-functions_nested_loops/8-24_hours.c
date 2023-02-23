@@ -2,13 +2,15 @@
 
 /**
  * jack_bauer - check description
- * description: prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+ * description: prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59.
  * Return: nothing
  */
 
 void jack_bauer(void)
 {
-	int i,j;
+	int i;
+	int j;
 
 	for (i = 0; i < 24; i++)
 	{

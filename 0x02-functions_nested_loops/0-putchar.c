@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Main: check description
- * description: print a word using _putchar only
- * return: 0(Success)
+ * main - check description
+ * Description: print a word using _putchar only
+ * Return: 0
  *
  */
 

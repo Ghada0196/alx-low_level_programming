@@ -3,7 +3,7 @@
 /**
  * Main - Entry point
  * description: print a word using _putchar only
- * Always return 0(Success)
+ * return: 0(Success)
  *
  */
 

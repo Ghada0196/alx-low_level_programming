@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Main - Entry point
+ * Main: check description
  * description: print a word using _putchar only
  * return: 0(Success)
  *

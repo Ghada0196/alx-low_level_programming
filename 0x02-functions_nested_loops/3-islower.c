@@ -4,7 +4,7 @@
  * _islower - check description
  * @c: An input character
  * description: checks for lowercase character
- * return: 1 if true, 0 if false
+ * return: 1 if true or 0 if false
  */
 
 int _islower(int c)

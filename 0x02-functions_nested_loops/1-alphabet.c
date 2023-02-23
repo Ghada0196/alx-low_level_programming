@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * desc: print all alphabet in lowercase
+ * description: print all alphabet in lowercase
  * always return nothing
  */
 

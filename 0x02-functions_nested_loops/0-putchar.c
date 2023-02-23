@@ -7,7 +7,7 @@
  *
  */
 
-int main(void) 
+int main(void)
 {
 	char word[8] = "_putchar";
 	int i;
@@ -17,4 +17,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-}	
+}

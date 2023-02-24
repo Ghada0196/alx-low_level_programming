@@ -3,7 +3,7 @@
 /**
  * main - Etry point
  *
- * Return: always 1
+ * Return: always 0
  */
 
 int main(void)
@@ -22,4 +22,6 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+
+	return (0);
 }

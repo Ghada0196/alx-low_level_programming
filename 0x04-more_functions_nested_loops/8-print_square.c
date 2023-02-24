@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_square - check description
+ * @size: an input number
+ * description: print squares of #
+ * Return: nothing
+ */
+
 void print_square(int size)
 {
 	int i, j;

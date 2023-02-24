@@ -4,7 +4,7 @@
  * _isupper - check description
  * @c: an input character
  * description: checks for uppercase character
- * Return : 1 if c is uppercase, 0 otherwise
+ * Return : 1 if uppercas or 0 otherwise
  */
 
 int _isupper(int c)
@@ -16,6 +16,5 @@ int _isupper(int c)
 		if (i == c)
 			return (1);
 	}
-
 	return (0);
 }

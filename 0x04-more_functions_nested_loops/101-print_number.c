@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * print_number - check description
@@ -33,4 +34,4 @@ void print_number(int n)
 			i = i / 10;
 		}
 	}
-}	
+}

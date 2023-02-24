@@ -1,27 +1,27 @@
-es (21 sloc)  389 Bytes
-
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-
+  * main - Prints the sum of Even Fibonacci numbers
+  * less than 4000000.
+  *
+  * Return: Nothing!
+  */
 int main(void)
 {
-	int i;
-	long int fibonacci[50], sum = 2;
-	
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	for (i = 2; i < 50; i++)
+	int i = 0;
+	long j = 1, k = 2, sum = k;
+
+	while (k + j < 4000000)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if ((fibonacci[i] % 2) == 0 && fibonacci[i] < 4000000)
-			sum += fibonacci[i];
+		k += j;
+
+		if (k % 2 == 0)
+			sum += k;
+
+		j = k - j;
+
+		++i;
 	}
 	printf("%ld\n", sum);
-
 	return (0);
 }

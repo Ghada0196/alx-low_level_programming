@@ -2,9 +2,9 @@
 
 /**
  * _isupper - check description
- * @c: an input character
+ * @c: an input number
  * description: checks for uppercase character
- * Return : 1 if uppercas or 0 otherwise
+ * Return : 1 if uppercase or 0 otherwise
  */
 
 int _isupper(int c)

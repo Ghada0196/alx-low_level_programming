@@ -2,9 +2,9 @@
 
 /**
  * _isdigit - check description
- * @c: an input integer 
+ * @c: an input integer
  * description: checks for a digit
- * Return: 1 if c is a digit, 0 otherwise
+ * Return: 1 if c is a digit or 0 if not
  */
 
 int _isdigit(int c)

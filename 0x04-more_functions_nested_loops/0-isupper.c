@@ -3,7 +3,7 @@
 /**
  * _isupper  - check description
  * @c: an input character
- * description: a function that checks for uppercase character.
+ * description: checks for uppercase character
  * Return : 1 if c is uppercase, 0 otherwise
  */
 

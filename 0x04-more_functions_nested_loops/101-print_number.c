@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 
 /**
  * print_number - check description
@@ -12,7 +11,7 @@ void print_number(int n)
 {
 	int i = 1;
 	int r = n;
-	
+
 	if (n < 0)
 	{
 		_putchar('-');

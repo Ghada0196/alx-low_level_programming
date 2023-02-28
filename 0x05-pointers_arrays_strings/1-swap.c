@@ -3,7 +3,7 @@
 /**
  * swap_int - check description
  * @a: an input pointer
- * @n: another input integer
+ * @b: another input integer
  * description: a function that swaps two integers
  * Return: nothing
  */

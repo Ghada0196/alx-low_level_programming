@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the alphabet in lowercase then in uppercase
+ * main - print all numbers of base 16
  *
  * Return: always 0
  *
@@ -11,9 +11,9 @@ int main(void)
 {
 	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = '0'; i <= '9'; i++)
 		putchar(i);
-	for (i = 'A'; i <= 'Z'; i++)
+	for (i = 'a'; i <= 'f'; i++)
 		putchar(i);
 	putchar('\n');
 

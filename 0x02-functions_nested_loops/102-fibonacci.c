@@ -9,9 +9,8 @@
 
 int main(void)
 {
-	int i, sum;
-	int a = 1;
-	int b = 2;
+	int i;
+	unsigned long a = 1, b = 2, sum;
 
 	printf("1, 2, ");
 

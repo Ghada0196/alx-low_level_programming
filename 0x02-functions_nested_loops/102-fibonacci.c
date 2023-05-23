@@ -12,12 +12,12 @@ int main(void)
 	int i;
 	unsigned long a = 1, b = 2, sum;
 
-	printf("1, 2, ");
+	printf("1, 2");
 
 	for (i = 0; i < 48; i++)
 	{
 		sum = a + b;
-		printf("%ld, ", sum);
+		printf(", %ld", sum);
 		a = b;
 		b = sum;
 	}

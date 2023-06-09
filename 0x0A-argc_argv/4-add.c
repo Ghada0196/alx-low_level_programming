@@ -9,7 +9,7 @@
  * @argc: number of arguments
  * @argv: the arguments
  *
- * Return: the sum
+ * Return: 0 if all works
  */
 
 int main(int argc, char **argv)
@@ -35,5 +35,5 @@ int main(int argc, char **argv)
 
 	printf("%d\n", sum);
 
-	return (sum);
+	return (0);
 }

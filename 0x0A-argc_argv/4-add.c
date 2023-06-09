@@ -4,7 +4,7 @@
 /**
  * main - adds positive numbers.
  * If no number is passed to the program, print 0
- * If one of the number contains symbols that are not digits,
+ * If one of the number contains symbols that are not digits
  * print Error, and return 1
  * @argc: number of arguments
  * @argv: the arguments
@@ -14,7 +14,8 @@
 
 int main(int argc, char **argv)
 {
-	int sum = 0, i;
+	int sum = 0;
+	int i;
 
 	if (argc == 1)
 	{

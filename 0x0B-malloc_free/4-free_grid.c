@@ -6,7 +6,7 @@
  * previously created by your alloc_grid function.
  * @grid: the grid
  * @height: the height
- * 
+ *
  * Return: nothing
  */
 

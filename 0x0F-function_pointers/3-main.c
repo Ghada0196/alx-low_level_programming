@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 
 	if (argc != 4)
 	{
-		printf("Error98\n");
+		printf("Error\n");
 		exit(98);
 	}
 
@@ -25,9 +25,9 @@ int main(int argc, char **argv)
 	b = atoi(argv[3]);
 	op = argv[2];
 
-	if ((*op == '*' || *op == '/') && b == 0)
+	if ((*op == '%' || *op == '/') && b == 0)
 	{
-		printf("Error100\n");
+		printf("Error\n");
 		exit(100);
 	}
 

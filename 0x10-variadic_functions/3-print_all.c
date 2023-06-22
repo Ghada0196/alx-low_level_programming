@@ -3,8 +3,8 @@
 
 /**
  * print_char: print a letter
- * @va_list arg: an argument pointer
- * return: nothing
+ * @arg: an argument pointer
+ * Return: nothing
  */
 
 void print_char(va_list arg)
@@ -15,6 +15,12 @@ void print_char(va_list arg)
 	printf("%c", c);
 }
 
+/**
+ * print_int: print an integer
+ * @arg: an argument pointer
+ * Return: nothing
+ */
+
 void print_int(va_list arg)
 {
 	int num;
@@ -23,6 +29,12 @@ void print_int(va_list arg)
 	printf("%d", num);
 }
 
+/**
+ * print_float: print a float
+ * @arg: an argument pointer
+ * Return: nothing
+ */
+
 void print_float(va_list arg)
 {
 	float num;
@@ -30,6 +42,12 @@ void print_float(va_list arg)
 	num = va_arg (arg, double);
 	printf("%f", num);
 }
+
+/**
+ * print_str: print a string
+ * @arg: an argument pointer
+ * Return: nothing
+ */
 
 void print_str(va_list arg)
 {

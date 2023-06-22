@@ -47,9 +47,11 @@ void print_str(va_list arg)
 	s = va_arg (arg, char *);
 
 	if (s != NULL)
+	{
 		printf("%s", s);
-	else
-		printf("(nil)");
+		return;
+	}
+	printf("(nil)");
 }
 
 /**
@@ -81,8 +83,7 @@ void print_all(const char * const format, ...)
 				types[j].f(ap);
 				break;
 			}
-			else
-				j++;
+			j++;
 		}
 		i++;
 	}

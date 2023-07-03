@@ -3,6 +3,7 @@
 
 /**
  * file: 3-function_like_macro.h
+ * @x: the number
  * description: computes the absolute value of a number x
  */
 

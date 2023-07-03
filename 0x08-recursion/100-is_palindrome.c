@@ -53,6 +53,6 @@ int is_palindrome(char *s)
 		return (1);
 
 	len = len_str(s, len);
-	
+
 	return (check_palin(s, i, len - 1));
 }

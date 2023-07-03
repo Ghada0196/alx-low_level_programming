@@ -2,7 +2,7 @@
 
 /**
  * find_root - find rout of number n
- * @n: the number
+ * @num: the number
  * @root: the root
  * Return: the coorect root if found
  */
@@ -31,6 +31,9 @@ int _sqrt_recursion(int n)
 
 	if (n < 0)
 		return (-1);
+
+	if (n == 1)
+		return (1);
 
 	return (find_root(n, root));
 }

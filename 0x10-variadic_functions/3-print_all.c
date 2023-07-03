@@ -2,40 +2,40 @@
 #include <stdio.h>
 
 /**
- * print_char: print a letter
+ * print_char - print a letter
  * @arg: an argument pointer
  * Return: nothing
  */
 
 void print_char(va_list arg)
 {
-	printf("%c", va_arg (arg, int));
+	printf("%c", va_arg(arg, int));
 }
 
 /**
- * print_int: print an integer
+ * print_int - print an integer
  * @arg: an argument pointer
  * Return: nothing
  */
 
 void print_int(va_list arg)
 {
-	printf("%d", va_arg (arg, int));
+	printf("%d", va_arg(arg, int));
 }
 
 /**
- * print_float: print a float
+ * print_float - print a float
  * @arg: an argument pointer
  * Return: nothing
  */
 
 void print_float(va_list arg)
 {
-	printf("%f", va_arg (arg, double));
+	printf("%f", va_arg(arg, double));
 }
 
 /**
- * print_str: print a string
+ * print_str - print a string
  * @arg: an argument pointer
  * Return: nothing
  */
@@ -44,9 +44,9 @@ void print_str(va_list arg)
 {
 	char *s;
 
-	s = va_arg (arg, char *);
+	s = va_arg(arg, char *);
 
-	(s == NULL)? printf("(nil)") : printf("%s", s);
+	(s == NULL) ? printf("(nil)") : printf("%s", s);
 }
 
 /**
@@ -68,7 +68,7 @@ void print_all(const char * const format, ...)
 		{'s', print_str},
 	};
 
-	va_start (ap, format);
+	va_start(ap, format);
 
 	while (format[i])
 	{
@@ -88,7 +88,7 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 
-	va_end (ap);
+	va_end(ap);
 
 	printf("\n");
 }

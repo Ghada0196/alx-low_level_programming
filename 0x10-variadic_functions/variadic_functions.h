@@ -13,7 +13,7 @@ void print_all(const char * const format, ...);
  * struct format - Struct format
  *
  * @c: character
- * @form: type
+ * @f: type
  */
 
 typedef struct format

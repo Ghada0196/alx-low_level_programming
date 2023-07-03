@@ -68,12 +68,9 @@ void print_all(const char * const format, ...)
 		{'s', print_str},
 	};
 
-	if (!format)
-		return;
-
 	va_start(ap, format);
 
-	while (format[i])
+	while (format && format[i])
 	{
 		j = 0;
 		while (types[j].c)

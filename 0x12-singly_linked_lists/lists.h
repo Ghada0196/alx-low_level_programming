@@ -6,15 +6,17 @@
 #include <string.h>
 
 /**
- * list_t - Struct
- * @data: data
+ * list_t - Struct whith three parameters
+ * @str: data
+ * @len: length
  * @next: pointer to next node
  */
 
-typedef struct list_t{
+typedef struct list_t
+{
 	char *str;
 	int len;
-	struct list_t* next;
+	struct list_t *next;
 } list_t;
 
 int _putchar(char c);

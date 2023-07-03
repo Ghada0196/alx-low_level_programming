@@ -5,7 +5,7 @@
  * in a linked list_t list.
  * @h: first node
  *
- * return: number
+ * Return: number
  */
 
 size_t list_len(const list_t *h)

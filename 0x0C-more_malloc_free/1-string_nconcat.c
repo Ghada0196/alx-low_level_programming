@@ -6,8 +6,8 @@
  * @s2: second string
  * @n: If n is greater or equal to the length of s2
  * then use the entire string s2
- * Return: The returned pointer shall point to a newly allocated space in memory
- * which contains s1, followed by the first n bytes of s2, and null terminated
+ * Return: A pointer to a newly allocated space in memory
+ * which contains s1, followed by the first n bytes of s2
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
